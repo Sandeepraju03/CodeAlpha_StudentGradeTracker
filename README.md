@@ -29,3 +29,30 @@ The application is implemented in **two versions**:
 ---
 
 ## 📂 Project Structure
+src/
+└── com/codealpha/grade/
+├── ConsoleGradeTracker.java # Console version
+├── GradeTrackerGUI.java # GUI version (Swing)
+├── Student.java # Student model
+└── StudentManager.java # Logic & data handling
+.gitignore
+README.md
+
+---
+
+## ▶️ How to Run
+
+### Console Version
+1. Open project in IntelliJ.
+2. Run `ConsoleGradeTracker.java`.
+3. Follow the on-screen menu to add students and view reports.
+
+### GUI Version
+1. Open project in IntelliJ.
+2. Run `GradeTrackerGUI.java`.
+3. A window will appear — enter student names & scores, then view the report.
+
+## 📌 Author
+**Sandeep Raju**  
+CodeAlpha Java Programming Internship – Task 1
+
